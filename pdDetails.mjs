@@ -1,6 +1,5 @@
 import puppeteer from "puppeteer";
 
-
 const scrapeProductDetails = async (url) => {
   const browser = await puppeteer.launch({headless: false});
   const page = await browser.newPage();

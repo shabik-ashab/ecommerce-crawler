@@ -1,0 +1,100 @@
+{
+  "https://www.ryanscomputers.com/lenovo-ideapad-slim-3i-15itl6-core-i3-1115g4-15.6-inch-fhd-display-arctic-grey-laptop": {
+    "pdDetails": {
+      "title": "Lenovo IdeaPad Slim 3i 15ITL6 Core i3 1115G4 15.6 Inch FHD Display Arctic Grey Laptop #82H8023GIN-2Y",
+      "price": "57,180",
+      "description": {
+        "Processor Type.": "Core i3",
+        "Generation": "11th (Intel)",
+        "Display Size (Inch)": "15.6",
+        "RAM": "4GB",
+        "Storage": "1TB HDD",
+        "Graphics Memory": "Shared"
+      }
+    }
+  },
+  "https://www.ryanscomputers.com/hp-15s-fq5486tu-intel-core-i3-1215u-15.6-inch-fhd-display-black-laptop": {
+    "pdDetails": {
+      "title": "HP 15s-fq5486TU Intel Core i3 1215U 15.6 Inch FHD Display Black Laptop #681P8PA-2Y",
+      "price": "61,090",
+      "description": {
+        "Processor Type.": "Core i3",
+        "Generation": "12th (Intel)",
+        "Display Size (Inch)": "15.6",
+        "RAM": "4GB",
+        "Storage": "256GB SSD",
+        "Graphics Memory": "Shared"
+      }
+    }
+  },
+  "https://www.ryanscomputers.com/dynabook-toshiba-satellite-pro-c40-g-13f-intel-cdc-5205u-14-inch-hd-display-dark-blue-laptop": {
+    "pdDetails": {
+      "title": "Dynabook (Toshiba) Satellite Pro C40-G-13F Intel CDC 5205U 14 Inch HD Display Dark Blue Laptop #A1PYS27E112G-2Y",
+      "price": "33,420",
+      "description": {
+        "Processor Type.": "Intel Celeron",
+        "Generation": "Not Applicable",
+        "Display Size (Inch)": "14",
+        "RAM": "4GB",
+        "Storage": "256GB SSD",
+        "Graphics Memory": "Shared"
+      }
+    }
+  },
+  "https://www.ryanscomputers.com/asus-x415ka-intel-cdc-n4500-14-inch-slate-grey-laptop": {
+    "pdDetails": {
+      "title": "Asus X415KA Intel CDC N4500 14 Inch Slate Grey Laptop #EK091W-X415KA",
+      "price": "42,640",
+      "description": {
+        "Processor Type.": "Intel Celeron",
+        "Generation": "Not Applicable",
+        "Display Size (Inch)": "14",
+        "RAM": "4GB",
+        "Storage": "1TB HDD",
+        "Graphics Memory": "Shared"
+      }
+    }
+  },
+  "https://www.ryanscomputers.com/hp-15s-fq3234tu-intel-cdc-n4500-15.6-inch-fhd-display-silver-laptop--5b356pa-2y": {
+    "pdDetails": {
+      "title": "HP 15s-fq3234TU Intel CDC N4500 15.6 Inch FHD Display Silver Laptop #5B356PA-2Y",
+      "price": "46,980",
+      "description": {
+        "Processor Type.": "Intel Celeron",
+        "Generation": "Not Applicable",
+        "Display Size (Inch)": "15.6",
+        "RAM": "4GB",
+        "Storage": "256GB SSD",
+        "Graphics Memory": "Shared"
+      }
+    }
+  },
+  "https://www.ryanscomputers.com/dynabook-toshiba-satellite-pro-c40-g-11i-intel-core-i3-10110u-dark-blue-laptop-a1pys27e": {
+    "pdDetails": {
+      "title": "Dynabook (Toshiba) Satellite Pro C40-G-11I Intel Core i3 10110U 14 Inch HD Display Dark Blue Laptop #A1PYS27E",
+      "price": "48,720",
+      "description": {
+        "Processor Type.": "Core i3",
+        "Generation": "10th (Intel)",
+        "Display Size (Inch)": "14",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Graphics Memory": "Shared"
+      }
+    }
+  },
+  "https://www.ryanscomputers.com/hp-15s-eq1578au-amd-athlon-silver-3050u-15.6-inch-fhd-display-silver-laptop": {
+    "pdDetails": {
+      "title": "HP 15s-eq1578AU AMD Athlon Silver 3050U 15.6 Inch FHD Display Silver Laptop #7K1K3PA-2Y",
+      "price": "52,840",
+      "description": {
+        "Processor Type.": "AMD Athlon",
+        "Generation": "Not Applicable",
+        "Display Size (Inch)": "15.6",
+        "RAM": "8GB",
+        "Storage": "256GB SSD",
+        "Graphics Memory": "Shared"
+      }
+    }
+  }
+}
