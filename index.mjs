@@ -1,18 +1,10 @@
-import puppeteer from 'puppeteer';
+import puppeteer from "puppeteer";
+import scrapeProductDetails from "./pdDetails.mjs";
+
+const url =
+  "https://www.ryanscomputers.com/dynabook-toshiba-satellite-pro-c40-g-13f-intel-cdc-5205u-14-inch-hd-display-dark-blue-laptop";
 
 (async () => {
-  // Launch the browser and open a new blank page
-  const browser = await puppeteer.launch({headless: false})
-  const page = await browser.newPage()
-
-  // Navigate the page to a URL
-  await page.goto('https://www.ryanscomputers.com/category/laptop-all-laptop', {waitUntil: 'networkidle2'});
-  await page.waitForSelector('.grid-view-category')
-
-  const productLinks = await page.evaluate(() => {
-    return [...document.querySelectorAll('.category-single-product')].map(e=>e.href)
-  })
-  console.log(productLinks)
-  await page.close()
-  await browser.close()
+  const productDetails = await scrapeProductDetails(url);
+  console.log("Product Details:", productDetails);
 })();
