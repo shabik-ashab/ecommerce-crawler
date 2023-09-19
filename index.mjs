@@ -1,10 +1,19 @@
 import puppeteer from "puppeteer";
 import scrapeProductDetails from "./pdDetails.mjs";
+import getProductLinks from "./pdLink.mjs";
+import { Worker, Queue } from 'bullmq';
+import Redis from 'ioredis';
 
-const url =
-  "https://www.ryanscomputers.com/dynabook-toshiba-satellite-pro-c40-g-13f-intel-cdc-5205u-14-inch-hd-display-dark-blue-laptop";
+const connection = new Redis({
+  maxRetriesPerRequest: null
+});
 
-(async () => {
-  const productDetails = await scrapeProductDetails(url);
-  console.log("Product Details:", productDetails);
-})();
+new Worker('product', async (job) => {
+    const link = job.data.url
+    const pdDetails = await scrapeProductDetails(link)
+    console.log(pdDetails)
+},{connection})
+
+// we can add link to queue from addLink.mjs file
+
+

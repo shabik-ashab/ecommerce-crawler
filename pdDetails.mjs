@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 
 
 const scrapeProductDetails = async (url) => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({headless: false});
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: "networkidle2" });
   await page.waitForSelector(".product_content");
